@@ -10,8 +10,10 @@ Paper Title: Vision Transformer for Small-Size Datasets
 Authors: Seung Hoon Lee, Seunghyun Lee, Byung Cheol Song
 Conference paper: CVPR 2021
 
-Run the 1st cell to mount the drive if you want to save the trained model later in the code.
+We have implemented this paper with add-on modules Shifted Patch Tokenization (SPT) and Locality Self-Attention (LSA). The hyperparameters are changed to reduce training time and also it improved accuracy.
 
-There are 2 files in each CIFAR-10 and CIFAR-100 Folders. One file has learning rate 0.001 and other has 0.003. The files which have 0.003 learning rate are having bad accuracy. They took almost same amount of time.
+Run the 1st cell in any file to mount the drive if you want to save the trained model later in the code.
+
+There are 2 files for CIFAR-10 datasets, one for learning rate 0.003 (vit_small3_cifar10.ipynb) and one for 0.001 (vit_small1_cifar10.ipynb). For CIFAR-100 dataset there is only one file with learning rate 0.001 (vit_small1_cifar100.ipynb).
 
 We got Top 1 - Top 5 accuracy in ViT and SL-ViT after the model was trained. Atlast, we saved the model and load it back tested on test dataset and calculated Top 1 accuracy.
