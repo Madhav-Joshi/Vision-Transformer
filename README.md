@@ -1,2 +1,2 @@
 # Vision-Transformer
-Implemented vision transformer on CIFAR10 and CIFAR100 dataset using TensorFlow
+Trained vision transformer for small dataset like CIFAR10 and CIFAR100 using TensorFlow
